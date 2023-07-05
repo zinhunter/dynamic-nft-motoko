@@ -87,7 +87,7 @@ If successful, you should get something like this:
 Check back the token's metadata to verify the previous method worked correctly.
 
 ```
-dfx canister call dynamic-nft-motoko getMetadataDip721 '(1)'
+dfx canister call dynamic-nft-motoko getMetadataDip721 '(0)'
 ```
 
 Again, if this succeeds, the output should look something like this:
