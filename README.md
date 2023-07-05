@@ -9,7 +9,7 @@ This particular example only augments a counter found inside the key_val_data ve
  ### Step 1: Clone the repo:
 
 ```
-git clone git@github.com:zinhunter/dynamic-nft-motoko.git
+git clone https://github.com/zinhunter/dynamic-nft-motoko.git
 ```
 
  ### Step 2: Run a local instance of the Internet Computer:
@@ -73,7 +73,7 @@ If this succeeds, you should see the following message:
  The number (0) represents the ID of the token to update.
 
 ```
-dynamic-nft-motoko  dfx canister call dynamic-nft-motoko increaseCounter '(0)'
+dfx canister call dynamic-nft-motoko increaseCounter '(0)'
 ```
 
 If successful, you should get something like this:
